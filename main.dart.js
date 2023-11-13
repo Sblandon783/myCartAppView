@@ -21712,7 +21712,7 @@ a5q:function a5q(a){this.a=a},
 zZ:function zZ(a){this.a=a},
 A_:function A_(a,b){var _=this
 _.d=a
-_.e=1
+_.e=0
 _.a=null
 _.b=b
 _.c=null},
@@ -74115,7 +74115,7 @@ A.Gz.prototype={
 aq(){this.aI()},
 L(a){return new A.cZ(B.nl,A.jw(this.a54(),B.aA,B.av,B.aj),null)},
 a54(){var s=A.a([],t.p)
-A.ae([1,"Jugadores",2,"Alineaci\xf3n"],t.S,t.N).T(0,new A.WZ(this,s))
+A.ae([0,"Jugadores",1,"Alineaci\xf3n"],t.S,t.N).T(0,new A.WZ(this,s))
 return s},
 a53(a,b){var s=null,r=this.a.d===a,q=r?50:47,p=r?B.aT:B.eb,o=r?B.j:B.cw
 return new A.m4(1,B.ei,A.oj(s,A.cc(B.N,A.el(b,s,s,s,A.n6(s,s,o,s,s,s,s,s,s,s,s,s,s,s,r?B.b5:B.u,s,s,!0,s,s,s,s,s,s,s,s),s,s),B.m,s,s,new A.dE(p,s,s,B.y_,s,s,B.as),s,q,s,s,s,s,1/0),B.aB,!1,s,s,s,s,s,s,s,s,s,s,new A.WY(this,a),s,s,s,s,s,s),s)}}
