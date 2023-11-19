@@ -77331,15 +77331,16 @@ $3(a,b,c){var s=this.a,r=s.d.f
 return A.ady(new A.WA(s,b),new A.ed(r,A.j(r).i("ed<1>")),t.nu)},
 $S:472}
 A.WA.prototype={
-$2(a,b){var s,r,q=null,p=b.b
-if(p!=null){if(J.kz(p)){s=this.a
-r=t.p
-r=A.a([A.dA(new A.bD(new A.ak(0,210,0,0),A.dr(A.a([new A.hL(1,B.cn,s.a1k(p),q),new A.bD(B.jC,A.bC(q,q,B.o,B.dT,q,q,q,150,q,q,q,q,1),q),new A.hL(1,B.cn,s.a0Q(p),q)],r),B.cO,B.Q,B.C),q),q,300),B.N8],r)
-B.c.K(r,s.a0E(p,this.b))
-r.push(new A.GT(s.f,new A.Wz(s,b),q))
-r=A.k0(B.eh,r,B.aQ,q,q)
-p=r}else p=B.Gm
-return p}else return B.je},
+$2(a,b){var s,r,q,p=null,o=b.b
+if(o!=null){if(J.kz(o)){s=t.p
+r=A.a([B.N8],s)
+q=this.a
+B.c.K(r,q.a0E(o,this.b))
+r.push(new A.GT(q.f,new A.Wz(q,b),p))
+r.push(A.dA(new A.bD(new A.ak(0,210,0,0),A.dr(A.a([new A.hL(1,B.cn,q.a1k(o),p),new A.bD(B.jC,A.bC(p,p,B.o,B.dT,p,p,p,150,p,p,p,p,1),p),new A.hL(1,B.cn,q.a0Q(o),p)],s),B.cO,B.Q,B.C),p),p,300))
+r=A.k0(B.eh,r,B.aQ,p,p)
+o=r}else o=B.Gm
+return o}else return B.je},
 $S:179}
 A.Wz.prototype={
 $0(){var s=this.b.b
@@ -77364,7 +77365,7 @@ $0(){},
 $S:0}
 A.GT.prototype={
 I(a){var s=null
-return A.ho(s,A.afx(new A.Y5(this),this.c,t.y),s,s,s,0,180,s)}}
+return A.ho(s,A.afx(new A.Y5(this),this.c,t.y),s,s,s,0,160,s)}}
 A.Y5.prototype={
 $3(a,b,c){var s=null
 return b?A.hE(A.rr(B.NI,this.a.d,A.IG(s,s,B.eR,s,s,s,s,s,s,s,s,s,B.qp,s,B.jf,s,s,s,s)),s,s):B.d8},
@@ -77380,7 +77381,7 @@ return new A.bD(B.ql,A.bC(r,A.dr(A.a([p,A.cZ(B.b.M(q,0,s>10?10:s),r,r,r,B.Gj,r,r
 A.Kb.prototype={
 I(a){var s=null,r=this.c,q=r?"Titulares":"Banca",p=r?B.Nu:B.Ns,o=r?B.pB:B.pN
 r=t.p
-return A.bC(s,A.dr(A.a([A.cZ(q,s,s,s,B.a4V,s,s),A.dr(A.a([A.a3f(p,B.l,20),A.cZ(B.e.j(this.d),s,s,s,B.a4W,s,s)],r),B.E,B.Q,B.C)],r),B.E,B.dR,B.C),B.o,s,s,new A.cq(o,s,s,B.ek,s,s,B.a8),s,s,s,B.fK,s,s,s)}}
+return A.bC(s,A.dr(A.a([A.cZ(q,s,s,s,B.a4U,s,s),A.dr(A.a([A.a3f(p,B.l,20),A.cZ(B.e.j(this.d),s,s,s,B.a4V,s,s)],r),B.E,B.Q,B.C)],r),B.E,B.dR,B.C),B.o,s,s,new A.cq(o,s,s,B.ek,s,s,B.a8),s,s,s,B.fK,s,s,s)}}
 A.Go.prototype={
 I(a){var s=null
 return new A.dL(B.eh,s,s,A.bC(s,s,B.o,s,s,new A.cq(s,s,s,s,s,new A.p5(B.oR,B.oS,B.ed,A.a([B.Dj,B.pH,B.eq,B.jm,B.pD,B.pE,B.es],t.t_),B.Tj,s),B.a8),s,1/0,s,s,s,s,1/0),s)}}
@@ -77495,7 +77496,7 @@ this.cL()
 this.jI()}}
 A.GS.prototype={
 I(a){var s=null,r=this.c
-return A.ho(80,A.bC(B.N,A.cZ(r.length!==0?r:"???",s,s,s,B.a4U,s,s),B.o,s,s,s,s,s,s,B.MK,s,s,this.d),s,s,s,s,s,s)}}
+return A.ho(80,A.bC(B.N,A.cZ(r.length!==0?r:"???",s,s,s,B.a4W,s,s),B.o,s,s,s,s,s,s,B.MK,s,s,this.d),s,s,s,s,s,s)}}
 A.Jh.prototype={
 I(a){var s=this,r=null,q=s.c,p=q.c,o=p!==-1
 q=s.Jc(o?q.e:"???","Posici\xf3n")
@@ -85050,10 +85051,10 @@ B.LG=new A.G(4294967040)
 B.a3L=new A.NP(1,"double")
 B.a4r=new A.t(!0,B.KQ,null,"monospace",null,null,48,B.qI,null,null,null,null,null,null,null,null,null,B.Gc,B.LG,B.a3L,null,"fallback style; consider putting your text in a Material",null,null,null,null)
 B.a4z=new A.t(!0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.Gc,null,null,null,null,null,null,null,null)
-B.a4W=new A.t(!0,B.l,null,null,null,null,null,B.B,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.a4V=new A.t(!0,B.l,null,null,null,null,null,B.B,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Gj=new A.t(!0,B.l,null,null,null,null,null,B.qG,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a4V=new A.t(!0,B.l,null,null,null,null,null,B.ba,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a4U=new A.t(!0,B.l,null,null,null,null,null,B.qH,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.a4U=new A.t(!0,B.l,null,null,null,null,null,B.ba,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.a4W=new A.t(!0,B.l,null,null,null,null,null,B.qH,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Gi=new A.t(!0,B.l,null,null,null,null,13,B.ba,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.a6b=new A.t(!0,B.l,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Gk=new A.t(!0,null,null,null,null,null,null,B.ba,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
