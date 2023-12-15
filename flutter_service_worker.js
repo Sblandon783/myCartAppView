@@ -4,9 +4,9 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "01b639592dcb39554046132007661d94",
-"index.html": "54063b53d651a9c9888e92aaf75c8d32",
-"/": "54063b53d651a9c9888e92aaf75c8d32",
-"main.dart.js": "a8ba12aff6e85bf09035907815402a9f",
+"index.html": "aedfbb61fd64924f0eee71bfe1fb2bba",
+"/": "aedfbb61fd64924f0eee71bfe1fb2bba",
+"main.dart.js": "d13e00e9371852b2239fd18db9881f0b",
 "flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
@@ -14,7 +14,7 @@ const RESOURCES = {
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "6bfdc54bf4662e9e7b6c1bc1da7ff880",
-"assets/AssetManifest.json": "aca41a8bb040a402b2ff7bcb03efac95",
+"assets/AssetManifest.json": "f5dd5eb2cf4cfa71fd5ab97552121aca",
 "assets/NOTICES": "b91b019d73f98b6f7e756364b80c3ffd",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
@@ -22,6 +22,7 @@ const RESOURCES = {
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/assets/player_lt.png": "811a87bfbf0f5c9a3c6863cb5114269c",
 "assets/assets/soccer_field.jpeg": "e137be386bb8a98d83ffcaebc7d695c9",
+"assets/assets/player_dc_small.png": "f92cb5335ea423bea077ad52aa799494",
 "assets/assets/section_players.jpeg": "6acd47cf50857779ea3b46d238725444",
 "assets/assets/portero.png": "077ed0cc30b7acf6b0a654a667c31189",
 "assets/assets/routine4.png": "bfbf3d5cd13fedb928988a7ba0eb1dd3",
@@ -48,10 +49,13 @@ const RESOURCES = {
 "assets/assets/card1.png": "9266d60d7ff5faee2bc55de9be3275b5",
 "assets/assets/cup.png": "574b570e979260f1c2ebacbab91543e8",
 "assets/assets/logo.png": "eb9ea1fc7eabc4dd4356be580695fa33",
+"assets/assets/player_lt_small.png": "19bff8467bf5190133397e02048cc352",
+"assets/assets/section_align_small.jpeg": "d02a096f320c3d4cf8d0f5d4eee5c41f",
 "assets/assets/exercises.png": "548834e18d34012ef425a600139bcfb5",
 "assets/assets/back_2.png": "7df05136a7809c93f19220deffac1447",
 "assets/assets/back.jpeg": "7263b902946b51b1f95d7a6854f7d206",
 "assets/assets/b_soccer_1.jpeg": "07294c1f9fe83e05ccc2f2f977ff4a4a",
+"assets/assets/player_mcd_small.png": "79ca2524f6e0a5bdb8a578c5420c4620",
 "assets/assets/back.png": "e55e2cc005ec85952e41b3aef25e188f"
 };
 
