@@ -1,58 +1,77 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
 
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
+  <title>Home</title>
 
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/">
-
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
-
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="soccer">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
-
-  <title>soccer</title>
-  <link rel="manifest" href="manifest.json">
-
-  <script>
-    // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '38890276';
-  </script>
-  <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer></script>
+  <link rel="stylesheet" href="css/mystyle.css">
+  <script src="js/main.js"></script>
 </head>
+
 <body>
-  <script>
-    window.addEventListener('load', function(ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        }
-      }).then(function(engineInitializer) {
-        return engineInitializer.initializeEngine();
-      }).then(function(appRunner) {
-        return appRunner.runApp();
-      });
-    });
-  </script>
+  <div style=" 
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  ">
+    <div style="width: 100%; top: 0;position: absolute;color: white; 
+ align-items: center;
+display: flex;
+justify-content: center;
+  z-index: 2;    text-shadow: 0 3px 8px rgba(0,0,0,0.5);">
+      <h1>Welcome to my portfolio</h1>
+    </div>
+    <ul class='slider' id="slider">
+     
+      
+
+      <li class='item' style=" background-image: url('assets/logo_1.png');background-size: 100% 100%">
+        <div class='content'>
+          <h2 class='title'>Soccer APP</h2> 
+          <p class='description'>
+            <h4 style="font-size: 14px;">Application created with flutter and deploy with flutter web</h4>
+            <h4 style="font-size: 13px;color: rgb(234, 234, 234);">Information</h4>
+            <p>- Intensive use of classes</p>
+            <p>- Design patterns</p>
+            <p>- Blocks and Cubits</p>
+            <p>- Streams adn providers</p>
+          </p>
+          <br>
+          <a href="soccer/index.html">
+            <button>View to Soccer app</button>
+          </a>
+        </div>
+      </li>
+       
+      <li class='item' style=" background-image: url('assets/logo_1.png');background-size: 100% 100%">
+        <div class='content'>
+          <h2 class='title'>Soccer APP</h2> 
+          <p class='description'>
+            <h4 style="font-size: 14px;">Application created with flutter and deploy with flutter web</h4>
+            <h4 style="font-size: 13px;color: rgb(234, 234, 234);">Information</h4>
+            <p>- Intensive use of classes</p>
+            <p>- Design patterns</p>
+            <p>- Blocks and Cubits</p>
+            <p>- Streams adn providers</p>
+          </p>
+          <br>
+          <a href="soccer/index.html">
+            <button>View to Soccer app</button>
+          </a>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+  <nav class='nav'>
+    <ion-icon class='btn prev' name="arrow-back-outline"></ion-icon>
+    <ion-icon class='btn next' name="arrow-forward-outline"></ion-icon>
+  </nav>
+
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
