@@ -1,0 +1,9 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.sdcmedia.swingers.g4",
+      "sha256_cert_fingerprints":
+      ["0B:69:25:82:9F:AF:EF:4C:89:90:10:78:F9:9A:4D:F2:A4:FC:0F:D0:28:D3:E0:96:E9:8D:C6:6A:62:12:73:53"]
+    }
+  }]
